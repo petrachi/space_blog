@@ -1,2 +1,2 @@
 Cluster.name = "SPACE BLOG"
-Cluster.sections = [Article, Experience, Ressource]
+Cluster.sections = [Article, Experience, Ressource, Screencast]

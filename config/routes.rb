@@ -27,4 +27,13 @@ Rails.application.routes.draw do
 
     get "/ressource/:id" => :show, as: :ressource # temp - needed for routing obj
   end
+
+
+  controller "screencasts" do
+    get "/screencasts" => :index, as: :screencasts
+
+
+
+    get "/screencast/:id" => :show, as: :screencast # temp - needed for routing obj
+  end
 end
