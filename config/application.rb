@@ -9,6 +9,6 @@ Bundler.require(*Rails.groups)
 module SpaceBlog
   class Application < Rails::Application
 
-    RKit.load :css, :decorator, :grid
+    RKit.load :active_record_utilities, :css, :decorator, :grid
   end
 end

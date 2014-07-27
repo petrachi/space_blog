@@ -41,8 +41,9 @@ gem 'spring',        group: :development
 
 # gem 'cluster', '0.0.1', :git => 'https://github.com/petrachi/cluster.git'
 # gem 'r_kit', '0.3.1'
-gem 'cluster', :path => "/Users/elPetrachi/Dev/cluster"
-gem 'r_kit', :path => "/Users/elPetrachi/Dev/r_kit"
+gem 'cluster', path: "/Users/elPetrachi/Dev/cluster"
+gem 'hydrogen', path: "/Users/elPetrachi/Dev/hydrogen"
+gem 'r_kit', path: "/Users/elPetrachi/Dev/r_kit"
 
 
 ruby "2.1.1"

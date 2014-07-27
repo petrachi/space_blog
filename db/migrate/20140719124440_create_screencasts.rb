@@ -11,7 +11,7 @@ class CreateScreencasts < ActiveRecord::Migration
       # t.string :pool
       # t.boolean :published, :default => false
       # t.datetime :published_at
-      # t.string :tag, index: true
+      t.string :tag, index: true
       # t.string :serie
 
       t.timestamps

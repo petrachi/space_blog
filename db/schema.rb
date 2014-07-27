@@ -19,13 +19,15 @@ ActiveRecord::Schema.define(version: 20140719124440) do
   create_table "articles", force: true do |t|
     t.string   "title"
     t.text     "brief"
+    t.string   "tag"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "experiences", force: true do |t|
     t.string   "title"
-    t.text     "summary"
+    t.text     "brief"
+    t.string   "tag"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -33,6 +35,7 @@ ActiveRecord::Schema.define(version: 20140719124440) do
   create_table "ressources", force: true do |t|
     t.string   "title"
     t.text     "brief"
+    t.string   "tag"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -40,6 +43,7 @@ ActiveRecord::Schema.define(version: 20140719124440) do
   create_table "screencasts", force: true do |t|
     t.string   "title"
     t.text     "brief"
+    t.string   "tag"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

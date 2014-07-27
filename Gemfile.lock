@@ -10,9 +10,14 @@ PATH
       slim (~> 2.0.2)
 
 PATH
+  remote: /Users/elPetrachi/Dev/hydrogen
+  specs:
+    hydrogen (0.1)
+
+PATH
   remote: /Users/elPetrachi/Dev/r_kit
   specs:
-    r_kit (0.3.2)
+    r_kit (0.4.1)
 
 GEM
   remote: https://rubygems.org/
@@ -158,6 +163,7 @@ PLATFORMS
 DEPENDENCIES
   cluster!
   coffee-rails (~> 4.0.0)
+  hydrogen!
   jbuilder (~> 2.0)
   jquery-rails
   pg
