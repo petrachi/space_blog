@@ -1,0 +1,53 @@
+js:
+  title: js
+  pool: js
+
+rails:
+  title: rails
+  pool: ruby
+  published: true
+  published_at: 01-05-2020
+  series: vodistoire
+
+rails2:
+  pool: ruby
+  published: true
+  following: rails
+
+rails3:
+  pool: ruby
+  published: true
+  following: rails2
+
+ruby:
+  title: ruby
+  brief: youpi
+  pool: ruby
+  published: true
+  published_at: 01-05-2022
+  series: releases
+
+ruby2:
+  pool: ruby
+  published: true
+  following: ruby
+
+c:
+  title: C
+  pool: c
+  published: true
+
+d:
+  title: D
+  pool: c
+  published: true
+
+test:
+  title: test
+  pool: c
+  published: true
+
+double:
+  title: db
+  pool: c
+  published: true

@@ -1,2 +1,0 @@
-class ScreencastsController < ApplicationController
-end

@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20140719124440) do
   create_table "articles", force: true do |t|
     t.string   "title"
     t.text     "brief"
+    t.string   "pool"
     t.string   "tag"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -27,6 +28,7 @@ ActiveRecord::Schema.define(version: 20140719124440) do
   create_table "experiences", force: true do |t|
     t.string   "title"
     t.text     "brief"
+    t.string   "pool"
     t.string   "tag"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -35,17 +37,25 @@ ActiveRecord::Schema.define(version: 20140719124440) do
   create_table "ressources", force: true do |t|
     t.string   "title"
     t.text     "brief"
+    t.string   "pool"
     t.string   "tag"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "screencasts", force: true do |t|
+    t.integer  "following_id"
     t.string   "title"
     t.text     "brief"
+    t.string   "pool"
+    t.boolean  "published",    default: false
+    t.datetime "published_at"
     t.string   "tag"
+    t.string   "series"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "screencasts", ["following_id"], name: "index_screencasts_on_following_id", using: :btree
 
 end

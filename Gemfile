@@ -38,12 +38,12 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
-# gem 'cluster', '0.0.1', :git => 'https://github.com/petrachi/cluster.git'
-# gem 'r_kit', '0.3.1'
+# gem 'r_kit', '0.4.2'
+# gem 'cluster', '0.2', :git => 'https://github.com/petrachi/cluster.git'
+# gem 'hydrogen', '0.1.1', :git => 'https://github.com/petrachi/hydrogen.git'
+gem 'r_kit', path: "/Users/elPetrachi/Dev/r_kit"
 gem 'cluster', path: "/Users/elPetrachi/Dev/cluster"
 gem 'hydrogen', path: "/Users/elPetrachi/Dev/hydrogen"
-gem 'r_kit', path: "/Users/elPetrachi/Dev/r_kit"
 
 
 ruby "2.1.1"
