@@ -14,4 +14,4 @@ gem 'hydrogen', '1.0', :git => 'https://github.com/petrachi/hydrogen.git'
 # gem 'cluster', path: "/Users/elPetrachi/Dev/cluster"
 # gem 'hydrogen', path: "/Users/elPetrachi/Dev/hydrogen"
 
-ruby "2.1"
+ruby "2.1.5"
