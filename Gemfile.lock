@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/petrachi/cluster.git
-  revision: bf021766dfb040819da85661f1cd19a84481a89d
+  revision: 5a986b94bd1178bb8cb0a6ff3755d11c6f606c65
+  tag: v1.0
   specs:
     cluster (1.0)
       better_errors (~> 1.1.0)
@@ -13,7 +14,8 @@ GIT
 
 GIT
   remote: https://github.com/petrachi/hydrogen.git
-  revision: 1411017867597a566a797efbbb56d8fe462d6d98
+  revision: 88003741ee5f77773495860e8301b48b4f77fac9
+  tag: v1.0
   specs:
     hydrogen (1.0)
 
@@ -154,8 +156,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cluster (= 1.0)!
-  hydrogen (= 1.0)!
+  cluster!
+  hydrogen!
   newrelic_rpm
   pg
   r_kit (= 1.0)
