@@ -1,11 +1,11 @@
+RKit.load :utilities, :active_record_utilities, :backtrace, :css, :decoration, :grid, :pagination, :dsl, :struct, :override, :frame, :parser
+
 Cluster.configure sections: %i{Article Ressource Doc About}
 
 # articles (blog)
 # tool-box (groups of links to other ressources)
 # documentation (rkit)
 # about (cv)
-
-
 
 # articles
 # one item is an article
@@ -20,3 +20,15 @@ Cluster.configure sections: %i{Article Ressource Doc About}
 # abouts
 # one item is the information about one author of articles OR rkit (ex "thomas petrachi")
 # including CV, git profile, twitter ...
+
+
+
+
+
+
+
+# Hydrogen.seed
+Hydrogen.seed update: true
+# Hydrogen.seed reset: true
+
+# Hydrogen.seed update: true ,reset: true#, logger: {level: :debug}

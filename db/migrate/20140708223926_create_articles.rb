@@ -6,7 +6,7 @@ class CreateArticles < ActiveRecord::Migration
       t.text :content
 
       t.string :tag, index: true
-      t.references :following, index: true
+      t.references :following, index: true # TODO: transform into 'foreign_key' rails 4.2
 
       t.boolean :published, :default => false
       t.datetime :published_at
